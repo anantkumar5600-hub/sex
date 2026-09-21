@@ -79,7 +79,7 @@ export default function WorkedWith() {
         >
           previous clients
           <span className="block text-xs text-white/50 tracking-[0.2em] mt-2 font-mono">
-            CREATORS I'VE WORKED WITH
+            CREATORS I&apos;VE WORKED WITH
           </span>
         </motion.h2>
       </div>
