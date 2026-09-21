@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+// @ts-expect-error Next.js processes this stylesheet import at build time.
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 
@@ -22,12 +23,12 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anant Edits — I Edit Attention.",
+  title: "MINITO.VFX — I Edit Attention.",
   description:
     "Short-form & long-form video editing for creators, brands and businesses who want to stand out.",
-  metadataBase: new URL("https://anantedits.example.com"),
+  metadataBase: new URL("https://minitovfx.example.com"),
   openGraph: {
-    title: "Anant Edits — I Edit Attention.",
+    title: "MINITO.VFX — I Edit Attention.",
     description:
       "Short-form & long-form video editing for creators, brands and businesses who want to stand out.",
     type: "website"
