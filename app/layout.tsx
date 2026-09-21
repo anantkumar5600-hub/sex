@@ -3,7 +3,7 @@ import { Bricolage_Grotesque, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/goo
 // @ts-expect-error Next.js processes this stylesheet import at build time.
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
-
+// HELLO
 const display = Bricolage_Grotesque({
   subsets: ["latin"],
   variable: "--font-display",
